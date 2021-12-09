@@ -24,6 +24,13 @@
        <!-- end::joda[] -->
        
     <build>
+        <extensions>
+            <extension>
+                <groupId>io.opentelemetry.contrib</groupId>
+                <artifactId>opentelemetry-maven-extension</artifactId>
+                <version>1.9.0-alpha</version>
+            </extension>
+        </extensions>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
